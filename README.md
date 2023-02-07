@@ -35,6 +35,9 @@ To run a chosen function within any file, one needs to:
 * ### Still stable:
     > src/activities/delegation/delegateMultipleAddresses.js
     src/activities/polymedia/sendMessageMultipleAddresses.js
+
+* ### Only if you're lucky enough:
+    > src/activities/capy/handleCapysMultipleAddresses.js
     
 * ### Don't even try:
     > src/activities/suiswap/swapToken.js
