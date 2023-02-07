@@ -24,7 +24,7 @@ To run a chosen function within any file, one needs to:
 
     >```node src/activities/transaction/sendTokenToMultipleAddresses.js```
 
-## Functions sorting according to their stability
+## Functions sorted by their stability
 * ### Quite stable:
     > src/activities/belaunch/mintTicketMultipleAddresses.js
     src/activities/nft/mintNftMultipleAddresses.js
