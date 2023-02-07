@@ -1,0 +1,25 @@
+{
+  "name": "sui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/faker": "^6.6.9"
+  },
+  "type": "module",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@mysten/sui.js": "^0.22.0",
+    "axios": "^1.2.2",
+    "bignumber.js": "^9.1.1",
+    "bip39": "^3.0.4",
+    "faker": "^5.5.3",
+    "fs": "^0.0.1-security",
+    "https-proxy-agent": "^5.0.1"
+  }
+}
