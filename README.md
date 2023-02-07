@@ -15,6 +15,7 @@
 To run a chosen function within any file, one needs to:
 1. Uncomment it.
 2. Provide arguments: either a mnemonic or a path to the location of the wallets.js, e.g.:
+
     ```mintToken("seed seed seed seed seed seed seed seed seed seed seed seed")```
 
     or
