@@ -15,14 +15,14 @@
 To run a chosen function within any file, one needs to:
 1. Uncomment it.
 2. Provide arguments: either a mnemonic or a path to the location of the wallets.js, e.g.:
-    > ```mintToken("seed seed seed seed seed seed seed seed seed seed seed seed")```
+    ```mintToken("seed seed seed seed seed seed seed seed seed seed seed seed")```
 
     or
 
-    > ```mintRandomTokenMultipleAddresses("resources/wallets.js")```
+    ```mintRandomTokenMultipleAddresses("resources/wallets.js")```
 3. Run in terminal (change path to a desired file):
 
-    >```node src/activities/transaction/sendTokenToMultipleAddresses.js```
+    ```node src/activities/transaction/sendTokenToMultipleAddresses.js```
 
 ## Functions sorted by their stability
 * ### Quite stable:
