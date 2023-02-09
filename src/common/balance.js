@@ -28,7 +28,7 @@ async function getAccountBalance(address) {
             const element = balances[index];
             total_balance = total_balance.plus(element["balance"]);
         }
-        console.log(`>>> address ${address} | ${total_balance / (10 ** 9)} SUI`);
+        console.log(`>>> address ${address} | ${total_balance / (10 ** 9)} SUI | `);
 
         return total_balance
 
@@ -42,8 +42,7 @@ async function getAccountBalance(address) {
 async function getAccountBalanceMultipleAddresses(filePath) {
     const file = await getFileWithSuiAddresses(filePath);
 
-    console.log("\n----- ----- ----- ----- -----");
-    console.log("Get account Balance\n");
+    console.log("\n----- ----- ----- \nGet account balance of multiple addresses\n");
 
     for (const obj of file) {
         const { address } = obj;

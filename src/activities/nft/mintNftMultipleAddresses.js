@@ -13,7 +13,7 @@ async function mintNftMultipleAddresses(filePath) {
 
         for (const obj of file) {
             const { mnemonic } = obj;
-            const delay = Math.floor(Math.random() * 5000) + 2500;
+            const delay = Math.floor(Math.random() * 2000) + 1000;
 
             await new Promise((resolve) => {
                 setTimeout(async () => {

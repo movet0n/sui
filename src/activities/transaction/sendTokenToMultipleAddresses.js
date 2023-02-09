@@ -1,5 +1,6 @@
 import { sendToken } from './sendToken.js';
 import { getFileWithSuiAddresses } from '../../common/account.js';
+import { getRandomSuiValueBetween } from '../../common/random.js';
 
 
 async function sendTokenToMultipleAddresses(mnemonic_from, filePath) {
@@ -11,7 +12,7 @@ async function sendTokenToMultipleAddresses(mnemonic_from, filePath) {
         const { address } = obj;
 
         const delay = Math.floor(Math.random() * 10000) + 7000;
-        const amount = Math.floor(Math.random() * (92345678 - 50000000 + 1) + 50000000);
+        const amount = await getRandomSuiValueBetween(0.02, 0.05)
 
         await new Promise((resolve) => {
             setTimeout(async () => {
