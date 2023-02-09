@@ -28,6 +28,7 @@ To run a chosen function within any file, one needs to:
 ## Functions sorted by their stability
 * ### Quite stable:
     > src/activities/belaunch/mintTicketMultipleAddresses.js
+    src/activities/frenemies/registerWithMultipleAddresses.js
     src/activities/nft/mintNftMultipleAddresses.js
     src/activities/omnibtc/claimRandomTokenMultipleAddresses.js
     src/activities/suiswap/mintRandomTokenMultipleAddresses.js
