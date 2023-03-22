@@ -2,7 +2,7 @@
 
 1. Download this repo.
 2. Install Node.js and NPM.
-3. Run ```npm install```
+3. Run ```npm install```.
 3. Populate address & mnemonic fields in wallets.js file (proxy & userAgent are optional).
 
 # Before you start
